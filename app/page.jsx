@@ -16,7 +16,7 @@ const WebcamCapture = () => {
     const img = new Image();
     img.crossOrigin = "anonymous";
     img.onload = () => setFrameImage(img);
-    img.src = 'https://raw.githubusercontent.com/Vegapod-Hyperloop/Media/refs/heads/main/Overlay.png';
+    img.src = 'https://raw.githubusercontent.com/Vegapod-Hyperloop/Photobooth/refs/heads/main/Overlay.png';
   }, []);
 
   // Start webcam stream
